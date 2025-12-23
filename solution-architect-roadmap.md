@@ -3,7 +3,7 @@
 > **Goal:** Become a credible End-to-End Solution Architect within 6-9 months
 > **Current Profile:** 15 years experience, strong in React Native, Node.js, AWS, IoT
 > **Gaps to Address:** Backend depth, Databases, Event-driven systems, DevOps/K8s
-> **Learning Decision:** Go with Fiber (deliberate choice for deeper backend credibility)
+> **Learning Decision:** Go with Gin (industry standard, net/http compatible)
 
 ---
 
@@ -13,7 +13,7 @@
 
 | Area | Technologies | Depth Required |
 |------|--------------|----------------|
-| Backend Development | **Go + Fiber**, REST, gRPC | Deep |
+| Backend Development | **Go + Gin**, REST, gRPC | Deep |
 | Databases | PostgreSQL, Redis, MongoDB | Deep |
 | Event-Driven | Kafka, AWS SQS/SNS, Event Sourcing | Deep |
 | Cloud Platform | AWS (Primary) | Expert |
@@ -37,6 +37,122 @@
 | ML/AI Integration | LLM APIs, RAG patterns |
 | Data Engineering | Spark, Airflow, Data Lakes |
 | Edge Computing | CloudFront, Lambda@Edge |
+
+---
+
+## 🎯 Proof Artifacts Rule (Non-Negotiable)
+
+> **Every learning pillar MUST produce at least 1 tangible artifact that can be shown in an interview.**
+
+Architects are not hired for what they *know* — they're hired for what they can *demonstrate*.
+
+| Month | Pillar | Required Artifact |
+|-------|--------|-------------------|
+| 1 | Go Foundations | Working CLI tool + Concurrent file processor (GitHub) |
+| 2 | Go Backend | Production-ready User Service with tests (GitHub) |
+| 3 | Database Mastery | E-commerce schema + Query optimization report |
+| 4 | Event-Driven | Order processing system with Kafka (GitHub + Architecture diagram) |
+| 5 | Cloud & Infra | Terraform modules + Infrastructure diagram |
+| 6 | Portfolio | 3 complete case studies with C4 diagrams |
+
+### Artifact Quality Checklist:
+- [ ] Can I explain this in 5 minutes to a non-technical stakeholder?
+- [ ] Does it include trade-offs I made and why?
+- [ ] Does it show failure handling?
+- [ ] Is there a cost estimate?
+- [ ] Is there a diagram?
+
+---
+
+## 🚀 Flagship Case Study: The Anchor Project
+
+> **One deeply owned system that everything maps back to.**
+
+Solution Architects are hired because: *"They deeply owned THIS one system."*
+
+### Your Flagship: Scalable Mobile + Backend Platform for 500K Users
+
+This is your interview anchor. Every learning topic connects here.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    FLAGSHIP: Mobile Commerce Platform                        │
+│                    "500K users, real-time inventory, multi-region"          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  Your Experience          What You're Adding          Interview Story       │
+│  ─────────────────        ─────────────────           ───────────────       │
+│  React Native App    ──▶  Go Backend APIs        ──▶  "Full stack owner"   │
+│  Node.js basics      ──▶  Event-driven order     ──▶  "Handled 10K TPS"    │
+│  AWS exposure        ──▶  Terraform + K8s        ──▶  "Designed infra"     │
+│  IoT background      ──▶  Real-time events       ──▶  "Scale expertise"    │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Flagship Components (Build Throughout Roadmap):
+
+| Component | Month Built | Technologies | Key Decision to Defend |
+|-----------|-------------|--------------|------------------------|
+| User Service | 2 | Go/Gin, PostgreSQL, JWT | Why Go over Node.js? |
+| Product Catalog | 3 | PostgreSQL, Redis cache | Cache invalidation strategy |
+| Order Processing | 4 | Kafka, Saga pattern | Why event-driven over sync? |
+| Inventory Service | 4 | Redis locks, optimistic locking | How to prevent overselling? |
+| Infrastructure | 5 | Terraform, EKS, RDS | Why K8s over ECS? |
+| Observability | 5 | OpenTelemetry, Grafana | SLO definitions |
+
+### Flagship Artifacts to Create:
+- [ ] C4 Context Diagram (system in ecosystem)
+- [ ] C4 Container Diagram (all services)
+- [ ] C4 Component Diagram (Order Service deep dive)
+- [ ] 5 ADRs (key architectural decisions)
+- [ ] Cost model ($X at 100K users, $Y at 500K users)
+- [ ] Failure mode analysis (what breaks first?)
+- [ ] Rollout plan (how to deploy safely)
+- [ ] 3-minute elevator pitch
+- [ ] 15-minute deep dive presentation
+
+---
+
+## 📢 Visibility & Networking (Weekly Actions)
+
+> **Architect networks grow from: Sharing thinking, Reviewing designs, Helping others.**
+
+Networking is not "intent" — it's **weekly output**.
+
+### Weekly Networking Commitments:
+
+| Day | Action | Platform | Time |
+|-----|--------|----------|------|
+| Monday | Publish 1 architecture insight/learning | LinkedIn/Twitter | 30 min |
+| Wednesday | Comment thoughtfully on 3 architecture posts | LinkedIn | 20 min |
+| Friday | Share 1 trade-off or failure story | LinkedIn/Blog | 30 min |
+| Weekend | Review 1 open-source architecture or RFC | GitHub/Company blogs | 1 hr |
+
+### Content Ideas (Mapped to Learning):
+
+| Month | Learning Topic | Content to Share |
+|-------|---------------|------------------|
+| 1 | Go basics | "Coming from Node.js to Go: First impressions" |
+| 2 | Clean Architecture | "How I structure Go services for testability" |
+| 3 | Database design | "PostgreSQL indexing mistakes I made (and fixed)" |
+| 4 | Event-driven | "Saga pattern: When to use and when to avoid" |
+| 5 | Kubernetes | "My first Terraform module: lessons learned" |
+| 6 | Case studies | "How I designed a 500K user platform" |
+
+### Networking Metrics (Track Monthly):
+- [ ] LinkedIn connections in tech/architecture: ___
+- [ ] Posts published: ___
+- [ ] Meaningful comments made: ___
+- [ ] DMs/conversations started: ___
+- [ ] Architecture discussions participated in: ___
+
+### Where to Engage:
+- **LinkedIn:** Architecture posts, SA job discussions
+- **Twitter/X:** Tech Twitter, #SystemDesign, #SoftwareArchitecture
+- **Dev.to/Medium:** Long-form architecture breakdowns
+- **GitHub:** Comment on architectural RFCs, design docs
+- **Local Meetups:** Present your flagship case study
 
 ---
 
@@ -215,11 +331,11 @@ Project 3: Concurrent URL Checker
 
 ---
 
-### Week 4: Go Intermediate + Fiber Intro
+### Week 4: Go Intermediate + Gin Intro
 
 #### Standard Library Essentials:
-- [ ] `io` and `io/ioutil` (readers, writers)
-- [ ] `os` (files, env vars, args)
+- [ ] `io` (readers, writers, utilities)
+- [ ] `os` (files, env vars, args, ReadFile/WriteFile)
 - [ ] `strings` and `strconv`
 - [ ] `time` (durations, parsing, formatting)
 - [ ] `encoding/json` (Marshal, Unmarshal, struct tags)
@@ -245,25 +361,19 @@ Project 3: Concurrent URL Checker
 - [ ] When to use `internal/`
 - [ ] Organizing by feature vs layer
 
-#### Fiber Framework Basics:
-- [ ] Routing and handlers
-- [ ] Middleware (logging, recovery, CORS)
-- [ ] Request parsing (body, query, params)
-- [ ] Response handling (JSON, errors)
-- [ ] Validation with go-playground/validator
-- [ ] Configuration management (Viper)
+#### Gin Framework Basics:
+> **Note on Gin:** You are using Gin because it is the most popular Go web framework, uses the standard `net/http` library (unlike Fiber), and has a massive ecosystem of middleware. It strikes the perfect balance between performance and productivity.
 
-#### Fiber Framework Basics:
-- [ ] Routing and handlers
+- [ ] Routing and handlers (`gin.Context`)
 - [ ] Middleware (logging, recovery, CORS)
-- [ ] Request parsing (body, query, params)
-- [ ] Response handling (JSON, errors)
-- [ ] Validation with go-playground/validator
+- [ ] Request parsing (`ShouldBindJSON`, `ShouldBindQuery`)
+- [ ] Response handling (`c.JSON`)
+- [ ] Validation (built-in `go-playground/validator`)
 - [ ] Configuration management (Viper)
 
 #### Hands-on Project:
 ```
-Build: User Management API (Fiber)
+Build: User Management API (Gin)
 - POST /users (create with validation)
 - GET /users/:id
 - PUT /users/:id
@@ -283,7 +393,7 @@ user-service/
 ├── internal/
 │   ├── config/              # Configuration
 │   ├── handler/             # HTTP handlers
-│   ├── middleware/          # Fiber middleware
+│   ├── middleware/          # Gin middleware
 │   ├── model/               # Domain models
 │   ├── repository/          # Database access
 │   └── service/             # Business logic
@@ -294,7 +404,7 @@ user-service/
 ```
 
 #### Resources:
-- **Fiber Docs:** https://docs.gofiber.io
+- **Gin Docs:** https://gin-gonic.com/docs/
 - **Project Structure:** https://github.com/golang-standards/project-layout
 
 ---
@@ -331,62 +441,67 @@ user-service/
 - [ ] SQL injection prevention (parameterized queries ALWAYS)
 - [ ] XSS prevention (output encoding)
 - [ ] CORS configuration
-- [ ] Rate limiting (`fiber/limiter`)
+- [ ] Rate limiting (`gin-contrib/rate-limiter`)
 - [ ] Request ID / correlation ID
 - [ ] Secure headers
 
 #### Code Example - Complete JWT Middleware:
 ```go
-func JWTMiddleware(secret string) fiber.Handler {
-    return func(c *fiber.Ctx) error {
+func JWTMiddleware(secret string) gin.HandlerFunc {
+    return func(c *gin.Context) {
         // Extract token from header
-        authHeader := c.Get("Authorization")
+        authHeader := c.GetHeader("Authorization")
         if authHeader == "" {
-            return c.Status(401).JSON(fiber.Map{
+            c.AbortWithStatusJSON(401, gin.H{
                 "error": "Missing authorization header",
             })
+            return
         }
         
         // Parse "Bearer <token>"
         parts := strings.Split(authHeader, " ")
         if len(parts) != 2 || parts[0] != "Bearer" {
-            return c.Status(401).JSON(fiber.Map{
+            c.AbortWithStatusJSON(401, gin.H{
                 "error": "Invalid authorization format",
             })
+            return
         }
         
         // Validate token
         claims, err := ValidateToken(parts[1], secret)
         if err != nil {
-            return c.Status(401).JSON(fiber.Map{
+            c.AbortWithStatusJSON(401, gin.H{
                 "error": "Invalid or expired token",
             })
+            return
         }
         
         // Check if token is blacklisted (for logout support)
         if IsTokenBlacklisted(parts[1]) {
-            return c.Status(401).JSON(fiber.Map{
+            c.AbortWithStatusJSON(401, gin.H{
                 "error": "Token has been revoked",
             })
+            return
         }
         
         // Store user info in context
-        c.Locals("userID", claims.UserID)
-        c.Locals("role", claims.Role)
-        return c.Next()
+        c.Set("userID", claims.UserID)
+        c.Set("role", claims.Role)
+        c.Next()
     }
 }
 
 // Role-based authorization middleware
-func RequireRole(roles ...string) fiber.Handler {
-    return func(c *fiber.Ctx) error {
-        userRole := c.Locals("role").(string)
+func RequireRole(roles ...string) gin.HandlerFunc {
+    return func(c *gin.Context) {
+        userRole := c.GetString("role")
         for _, role := range roles {
             if userRole == role {
-                return c.Next()
+                c.Next()
+                return
             }
         }
-        return c.Status(403).JSON(fiber.Map{
+        c.AbortWithStatusJSON(403, gin.H{
             "error": "Insufficient permissions",
         })
     }
@@ -407,6 +522,8 @@ Build: Complete Auth System
 ---
 
 ### Week 2: Database Integration
+
+> **Infrastructure as Code (IaC) Tip:** Instead of creating your RDS/Postgres instance in the AWS Console, try to use Terraform now (see Month 5). This builds IaC muscle memory early.
 
 #### Database Fundamentals in Go:
 - [ ] `database/sql` package (standard library)
@@ -612,10 +729,10 @@ func main() {
     userHandler := NewUserHandler(userService)
     
     // Setup routes
-    app := fiber.New()
-    app.Get("/users/:id", userHandler.GetUser)
+    r := gin.Default()
+    r.GET("/users/:id", userHandler.GetUser)
     
-    app.Listen(":3000")
+    r.Run(":3000")
 }
 ```
 
@@ -793,26 +910,34 @@ var (
 )
 
 // Error handler middleware
-func ErrorHandler(c *fiber.Ctx, err error) error {
-    code := fiber.StatusInternalServerError
-    response := ErrorResponse{Error: "Internal server error"}
-    
-    switch {
-    case errors.Is(err, ErrNotFound):
-        code = fiber.StatusNotFound
-        response = ErrorResponse{Error: "Resource not found", Code: "NOT_FOUND"}
-    case errors.Is(err, ErrUnauthorized):
-        code = fiber.StatusUnauthorized
-        response = ErrorResponse{Error: "Unauthorized", Code: "UNAUTHORIZED"}
-    case errors.Is(err, ErrForbidden):
-        code = fiber.StatusForbidden
-        response = ErrorResponse{Error: "Forbidden", Code: "FORBIDDEN"}
-    case errors.Is(err, ErrConflict):
-        code = fiber.StatusConflict
-        response = ErrorResponse{Error: "Resource already exists", Code: "CONFLICT"}
+func ErrorHandler() gin.HandlerFunc {
+    return func(c *gin.Context) {
+        c.Next() // Execute handlers first
+
+        // Check if any errors were attached to the context
+        if len(c.Errors) > 0 {
+            err := c.Errors.Last().Err
+            code := http.StatusInternalServerError
+            response := ErrorResponse{Error: "Internal server error"}
+            
+            switch {
+            case errors.Is(err, ErrNotFound):
+                code = http.StatusNotFound
+                response = ErrorResponse{Error: "Resource not found", Code: "NOT_FOUND"}
+            case errors.Is(err, ErrUnauthorized):
+                code = http.StatusUnauthorized
+                response = ErrorResponse{Error: "Unauthorized", Code: "UNAUTHORIZED"}
+            case errors.Is(err, ErrForbidden):
+                code = http.StatusForbidden
+                response = ErrorResponse{Error: "Forbidden", Code: "FORBIDDEN"}
+            case errors.Is(err, ErrConflict):
+                code = http.StatusConflict
+                response = ErrorResponse{Error: "Resource already exists", Code: "CONFLICT"}
+            }
+            
+            c.JSON(code, response)
+        }
     }
-    
-    return c.Status(code).JSON(response)
 }
 ```
 
@@ -842,6 +967,8 @@ Create an **Authentication Architecture Document**:
 ---
 
 ## MONTH 3: Database Mastery
+
+> **Reality Check:** This month covers deep topics (internals, locking, isolation) that often take years to master. Don't get discouraged if this takes 6-8 weeks. It is better to understand *one* database deeply than three superficially.
 
 ### Week 1: PostgreSQL Deep Dive - Schema Design
 
@@ -1331,30 +1458,32 @@ func (s *InventoryService) ReserveWithLock(ctx context.Context, productID string
 
 #### Rate Limiting with Redis:
 ```go
-func RateLimitMiddleware(redis *redis.Client, limit int, window time.Duration) fiber.Handler {
-    return func(c *fiber.Ctx) error {
-        key := fmt.Sprintf("ratelimit:%s", c.IP())
+func RateLimitMiddleware(redis *redis.Client, limit int, window time.Duration) gin.HandlerFunc {
+    return func(c *gin.Context) {
+        key := fmt.Sprintf("ratelimit:%s", c.ClientIP())
         
         // Increment counter
-        count, err := redis.Incr(c.Context(), key).Result()
+        count, err := redis.Incr(c.Request.Context(), key).Result()
         if err != nil {
-            return c.Next() // Fail open
+            c.Next() // Fail open
+            return
         }
         
         // Set expiry on first request
         if count == 1 {
-            redis.Expire(c.Context(), key, window)
+            redis.Expire(c.Request.Context(), key, window)
         }
         
         // Check limit
         if count > int64(limit) {
-            return c.Status(429).JSON(fiber.Map{
+            c.AbortWithStatusJSON(429, gin.H{
                 "error": "Rate limit exceeded",
-                "retry_after": redis.TTL(c.Context(), key).Val().Seconds(),
+                "retry_after": redis.TTL(c.Request.Context(), key).Val().Seconds(),
             })
+            return
         }
         
-        return c.Next()
+        c.Next()
     }
 }
 ```
@@ -2560,13 +2689,6 @@ Create **Infrastructure Architecture Document**:
 - Disaster recovery plan
 - Scaling strategy
 
-#### Architecture Artifact:
-Create **Infrastructure Architecture Document**:
-- Network topology diagram
-- Security boundaries
-- Scaling strategy
-- Disaster recovery plan
-
 ---
 
 ## MONTH 5: Production Excellence
@@ -2622,9 +2744,120 @@ Document your projects as **Solution Architecture Case Studies** (see templates 
 
 ### Week 3-4: Interview Preparation
 
-- Practice system design interviews
-- Mock architecture reviews
-- Behavioral questions (leadership, conflict resolution)
+#### The Business Side (Crucial for SA):
+- [ ] **Translate Tech to Value:** Practice explaining technical decisions in business terms.
+    - *Bad:* "We need Kubernetes for auto-scaling."
+    - *Good:* "We need to reduce our cloud bill by 30% during off-peak hours, which container orchestration allows us to do."
+- [ ] **Negotiation:** Role-play scenarios where you have to say "No" to a feature request to save the architecture.
+
+#### Interview Practice:
+- [ ] Practice system design interviews
+- [ ] Mock architecture reviews
+- [ ] Behavioral questions (leadership, conflict resolution)
+
+---
+
+### 🎤 Interview Readiness Framework
+
+> **Translate roadmap outputs into interview stories.**
+
+Architect interviews test: **Narratives, Decision Defense, Trade-off Pressure, Ambiguity Handling**
+
+#### The STAR-T Method for Architecture Stories:
+
+| Element | Description | Example |
+|---------|-------------|----------|
+| **S**ituation | Business context | "E-commerce platform, 100K daily orders" |
+| **T**ask | Your responsibility | "Design order processing to handle 10x scale" |
+| **A**ction | What you designed | "Event-driven with Kafka, Saga for transactions" |
+| **R**esult | Measurable outcome | "Reduced order failures from 2% to 0.1%" |
+| **T**rade-off | What you sacrificed | "Added complexity, 2 more services to maintain" |
+
+#### Prepare These 10 Stories:
+
+| Story | Maps to Learning | Key Trade-off to Defend |
+|-------|-----------------|------------------------|
+| 1. Why Go over Node.js | Month 1-2 | Performance vs team familiarity |
+| 2. Database schema design | Month 3 | Normalization vs query performance |
+| 3. Caching strategy | Month 3 | Consistency vs latency |
+| 4. Event-driven vs sync | Month 4 | Complexity vs scalability |
+| 5. Saga vs 2PC | Month 4 | Eventual consistency vs simplicity |
+| 6. K8s vs ECS | Month 5 | Flexibility vs operational overhead |
+| 7. Multi-AZ design | Month 5 | Cost vs availability |
+| 8. Observability investment | Month 5 | Upfront cost vs debugging time |
+| 9. Security architecture | Month 5 | User friction vs protection |
+| 10. Cost optimization | All months | Feature velocity vs cloud bill |
+
+#### Decision Defense Practice:
+
+For each major decision, prepare to answer:
+
+1. **"Why did you choose X over Y?"**
+   - State the constraints (time, team, budget)
+   - List 3 options considered
+   - Explain selection criteria
+   - Acknowledge what you gave up
+
+2. **"What would you do differently?"**
+   - Never say "nothing"
+   - Show growth mindset
+   - Tie to lessons learned
+
+3. **"How would this scale to 10x/100x?"**
+   - Identify bottlenecks
+   - Propose evolution path
+   - Mention cost implications
+
+4. **"What breaks first?"**
+   - Database connections
+   - Message queue backpressure
+   - Cache stampedes
+   - Network partitions
+
+#### Ambiguity Handling Practice:
+
+When given vague requirements:
+
+```
+1. Clarify scope: "Are we optimizing for latency or cost?"
+2. State assumptions: "I'll assume 99.9% availability target"
+3. Propose options: "We could do A, B, or C. Here's my recommendation."
+4. Invite feedback: "Does this align with your priorities?"
+```
+
+#### Mock Interview Schedule (Week 3-4):
+
+| Day | Activity | Duration |
+|-----|----------|----------|
+| Day 1 | Record yourself presenting Flagship case study | 1 hr |
+| Day 2 | Practice with peer (system design) | 1.5 hr |
+| Day 3 | Practice with peer (behavioral) | 1 hr |
+| Day 4 | Review recordings, identify weak points | 1 hr |
+| Day 5 | Practice weak areas | 1.5 hr |
+| Day 6 | Full mock interview (friend/mentor) | 2 hr |
+| Day 7 | Rest + light review | 30 min |
+
+#### Interview Question Bank:
+
+**System Design (Practice These):**
+- [ ] Design a rate limiter
+- [ ] Design a URL shortener
+- [ ] Design a notification system
+- [ ] Design an e-commerce order system
+- [ ] Design a real-time chat application
+- [ ] Design a metrics/monitoring system
+- [ ] Design a multi-tenant SaaS platform
+
+**Behavioral (SA-Specific):**
+- [ ] "Tell me about a time you had to push back on a technical decision."
+- [ ] "How do you handle disagreements with senior engineers?"
+- [ ] "Describe a system you designed that failed. What did you learn?"
+- [ ] "How do you balance technical debt with feature delivery?"
+- [ ] "How do you communicate technical concepts to non-technical stakeholders?"
+
+#### Your 30-Second Pitch:
+
+> "I'm a technology leader with 15 years of experience across mobile, backend, and cloud. I've spent the last [X months] deepening my architecture skills—designing event-driven systems, mastering Go for high-performance backends, and building infrastructure with Terraform. My flagship project is a mobile commerce platform designed for 500K users, which I can walk you through end-to-end. I'm looking for a Solution Architect role where I can own technical direction and translate business goals into scalable systems."
 
 ---
 
@@ -2677,7 +2910,7 @@ Design a B2B SaaS platform serving 500+ enterprise customers with strict data is
                            ▼                    ▼
                     ┌─────────────┐     ┌─────────────┐
                     │   Token     │     │  Services   │
-                    │   (JWT)     │     │ (Go/Fiber)  │
+                    │   (JWT)     │     │ (Go/Gin)    │
                     └─────────────┘     └─────────────┘
 ```
 
@@ -3117,7 +3350,7 @@ For each case study, create:
 1. **A Tour of Go** - https://go.dev/tour (Official)
 2. **Go by Example** - https://gobyexample.com
 3. **Exercism Go Track** - https://exercism.io/tracks/go
-4. **Fiber Docs** - https://docs.gofiber.io
+4. **Gin Docs** - https://gin-gonic.com/docs/
 5. **Go Project Layout** - https://github.com/golang-standards/project-layout
 
 ### Practice Platforms
@@ -3135,8 +3368,8 @@ For each case study, create:
 - [ ] Build concurrent downloader
 - [ ] Understand error handling patterns
 
-### Week 3-4: Go + Fiber
-- [ ] Learn Fiber framework basics
+### Week 3-4: Go + Gin
+- [ ] Learn Gin framework basics
 - [ ] Build User Management API
 - [ ] Implement middleware patterns
 - [ ] Write API documentation
@@ -3183,14 +3416,39 @@ For each case study, create:
 
 You're ready for Solution Architect roles when you can:
 
+### Technical Proof (Execution)
 1. ✅ Design any system in 45 minutes with clear trade-offs
-2. ✅ Present 3 documented case studies with diagrams
+2. ✅ Present 3 documented case studies with C4 diagrams
 3. ✅ Explain cost implications of architecture decisions
 4. ✅ Discuss failure modes and mitigations fluently
-5. ✅ Pass AWS SA Professional certification
-6. ✅ Build production-ready backend services in Go
-7. ✅ Explain concurrency patterns (goroutines, channels)
-8. ✅ Confidently discuss Go vs. other languages for different use cases
+5. ✅ Build production-ready backend services in Go
+6. ✅ Explain concurrency patterns (goroutines, channels)
+7. ✅ Confidently discuss Go vs. other languages for different use cases
+
+### Credibility Proof (Visibility)
+8. ✅ Have your Flagship case study documented with all artifacts
+9. ✅ Published 10+ architecture posts/insights on LinkedIn
+10. ✅ Can deliver your 30-second pitch without hesitation
+11. ✅ Have 3 practiced stories ready for behavioral questions
+12. ✅ Received feedback on your case study from at least 2 peers
+
+### Certification (Optional but Helpful)
+13. ⬜ AWS Solutions Architect Professional (validates cloud depth)
+
+---
+
+## 📊 Alignment Scorecard
+
+Track your progress monthly:
+
+| Dimension | Target | Month 1 | Month 2 | Month 3 | Month 4 | Month 5 | Month 6 |
+|-----------|--------|---------|---------|---------|---------|---------|----------|
+| E2E Ownership | ⭐⭐⭐⭐⭐ | | | | | | |
+| Technical Depth | ⭐⭐⭐⭐⭐ | | | | | | |
+| Business Thinking | ⭐⭐⭐⭐⭐ | | | | | | |
+| Real-world Credibility | ⭐⭐⭐⭐⭐ | | | | | | |
+| Networking & Visibility | ⭐⭐⭐⭐⭐ | | | | | | |
+| Interview Readiness | ⭐⭐⭐⭐⭐ | | | | | | |
 
 ---
 
@@ -3207,11 +3465,5 @@ You're ready for Solution Architect roles when you can:
 ---
 
 *Last Updated: December 2024*
-*Learning Path: Go + Fiber (deliberate choice)*
-*Next Review: Monthly progress check*
-6. ✅ Lead architecture discussions with confidence
-
----
-
-*Last Updated: December 2024*
+*Learning Path: Go + Gin (industry standard)*
 *Next Review: Monthly progress check*
