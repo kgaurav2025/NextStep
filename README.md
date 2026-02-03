@@ -169,36 +169,36 @@ Networking is not "intent" — it's **weekly output**.
 #### Topics to Master:
 
 **Variables & Types:**
-- [ ] Variable declaration (var, :=, const)
-- [ ] Basic types (int, int64, float64, string, bool, byte, rune)
-- [ ] Type conversions (explicit only, no implicit)
-- [ ] Zero values (every type has one - CRITICAL concept)
+- [x] Variable declaration (var, :=, const)
+- [x] Basic types (int, int64, float64, string, bool, byte, rune)
+- [x] Type conversions (explicit only, no implicit)
+- [x] Zero values (every type has one - CRITICAL concept)
 
 **Data Structures (YOU WILL USE DAILY):**
-- [ ] Arrays (fixed size: `[5]int`)
-- [ ] Slices (dynamic: `[]int`) - append, copy, slicing
-- [ ] Maps (`map[string]int`) - create, read, delete, check existence
-- [ ] Slice vs Array (know the difference!)
-- [ ] Nil slices vs empty slices
+- [x] Arrays (fixed size: `[5]int`)
+- [x] Slices (dynamic: `[]int`) - append, copy, slicing
+- [x] Maps (`map[string]int`) - create, read, delete, check existence
+- [x] Slice vs Array (know the difference!)
+- [x] Nil slices vs empty slices
 
 **Control Flow:**
-- [ ] if/else (with init statement)
-- [ ] for loops (Go's only loop - 3 forms)
-- [ ] switch (no break needed, case fallthrough)
-- [ ] range (iterating slices, maps, strings)
+- [x] if/else (with init statement)
+- [x] for loops (Go's only loop - 3 forms)
+- [x] switch (no break needed, case fallthrough)
+- [x] range (iterating slices, maps, strings)
 
 **Functions:**
-- [ ] Multiple return values
-- [ ] Named return values
-- [ ] Variadic functions (`...`)
-- [ ] Functions as values (closures)
-- [ ] Anonymous functions
+- [x] Multiple return values
+- [x] Named return values
+- [x] Variadic functions (`...`)
+- [x] Functions as values (closures)
+- [x] Anonymous functions
 
 **Pointers:**
-- [ ] & (address of) and * (dereference)
-- [ ] When to use pointers vs values
-- [ ] Pointer receivers vs value receivers
-- [ ] nil pointers
+- [x] & (address of) and * (dereference)
+- [x] When to use pointers vs values
+- [x] Pointer receivers vs value receivers
+- [x] nil pointers
 
 #### Quick Self-Test (Week 1):
 ```go
@@ -215,17 +215,17 @@ if val, ok := m["key"]; ok { fmt.Println(val) }
 ### Week 2: Go Patterns & Idioms
 
 #### Structs & Methods:
-- [ ] Defining structs
-- [ ] Struct literals (named vs positional)
-- [ ] Embedded structs (composition)
-- [ ] Methods (value receiver vs pointer receiver)
-- [ ] Constructor patterns (NewXxx functions)
+- [x] Defining structs
+- [x] Struct literals (named vs positional)
+- [x] Embedded structs (composition)
+- [x] Methods (value receiver vs pointer receiver)
+- [x] Constructor patterns (NewXxx functions)
 
 #### Interfaces:
 - [ ] Implicit implementation (no `implements` keyword)
-- [ ] Empty interface (`interface{}` / `any`)
-- [ ] Type assertions (`value.(Type)`)
-- [ ] Type switches
+- [x] Empty interface (`interface{}` / `any`)
+- [x] Type assertions (`value.(Type)`)
+- [x] Type switches
 - [ ] Common interfaces (io.Reader, io.Writer, error, Stringer)
 
 #### Error Handling:
